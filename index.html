@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Ovidio</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Inicio</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Acerca de mi</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Habilidades</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Trabajos</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hola,<br>Soy <span class="home__title-color">Ovidio</span><br>Desarrollador web</h1>
+
+                    <a href="#contact" class="button">Contacto</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="" class="home__social-icon"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-telegram' ></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <img class="imgp" src="imagenes/imagenperfil2.jpg">
+                </div>
+            </section>
+
+            <section class="about section " id="about">
+                <h2 class="section-title">Acerca de mí</h2>
+
+                <div class="about__container bd-grid">
+                    
+                    <div>
+                        <h2 class="about__subtitle">Soy Ovidio</h2>
+                        <p class="about__text">Actualmente soy estudiante de la carrera Ingeniería en Informática. Estudio en la Universidad Dr. Rafael Belloso Chacín.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Habilidades</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Mis Habilidades</h2>
+                        <p class="skills__text">Soy apasionado, curioso, disciplinado, responsable, dispuesto a aprender, con facilidad de trabajar en equipo.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">50%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">20%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section class="work section" id="work">
+                <h2 class="section-title">Trabajos</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <img src="imagenes/imagen1.jpg">
+                    </div>
+                    <div class="work__img">
+                        <a href="https://ovidiop.github.io" target="_blank"><img src="imagenes/imagen2.jpg"></a>
+                    </div>
+                    <div class="work__img">
+                        <img src="imagenes/imagen3.jpg">
+                    </div>
+                    <div class="work__img">
+                        <img src="imagenes/imagen4.jpg">
+                    </div>
+                    <div class="work__img">
+                        <img src="imagenes/imagen5.jpg">
+                    </div>
+                    <div class="work__img">
+                        <img src="imagenes/imagen6.jpg">
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contacto</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Enviar" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p class="footer__title">Ovidio</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-whatsapp' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-telegram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+            </div>
+            <p>&#169; 2021 copyright all right reserved</p>
+        </footer>
+
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
